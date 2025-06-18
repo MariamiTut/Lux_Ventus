@@ -120,6 +120,8 @@ body{
 
 
 .topics {
+    max-width: 1440px;
+    margin: 0 auto;
     padding-left: 84px;
     display:flex;
     flex-direction: column;
@@ -127,7 +129,7 @@ body{
     padding-right: 84px;
     margin-bottom: 243px;
     margin-top: 73px;
-    font-family: "Poppins", sans-serif;
+    
    
 }
 
@@ -137,6 +139,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 
   
 }
@@ -426,11 +429,11 @@ hr{
 
 
 .trend-wrapper {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     border-radius: 20px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-    padding: 20px;
+    padding: 50px 118px;
+    margin-bottom: 88px;
 
 }
 
@@ -445,7 +448,7 @@ hr{
 }
 
 .trending-container {
-    display: flex;
+   display: flex;
     gap: 60px;
 }
 
@@ -454,6 +457,9 @@ hr{
     position: relative;
     background-color: #ffffff;
     border-radius: 20px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    
+
 }
 
 .image-container3 {
@@ -461,11 +467,13 @@ hr{
     overflow: hidden;
     border-radius: 20px 20px 20px 20px;
     height: 250px;
+    width: 579px;
 }
 
 
 
 .image-container3 img {
+    width: 579px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -571,9 +579,7 @@ hr{
 }
 
 
-.trend-wrapper {
-    padding: 50px;
-}
+
 
 .image-container3 {
     height: 300px;
@@ -813,6 +819,91 @@ img[src*="shape.png"]:hover {
 
 
 
+/* footer */
+
+
+
+.footer-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 308px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 87px 89px 37px 84px;
+    box-shadow: 6px 0px 6px 0px #0000000D;
+    color: #FFFFFF;
+    margin-top: 69px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px;
+    align-items: center;
+    padding-bottom: 77px;
+    color: #BCBCBC;
+    border-bottom: 1px solid #BCBCBC;
+    margin-bottom: 34px;
+}
+
+
+.footer-image img{
+    width: 226px;
+    transition: 0.3s;
+}
+
+
+
+.footer-image img:hover{
+    transform: scale(1.2);
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+
+.icons h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #262626;
+    margin-right: 15px;
+
+}
+
+
+.icons img{
+    width: 31px;
+    height: 31px;
+    transition: 0.3s;
+}
+
+
+.icons img:hover{
+    transform: scale(1.4);
+}
+
+
+
+
+   
+.footer-section a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #262626;
+    transition: .3s;
+}
+
+.footer-section a:hover{
+    transform: scale(1.2);
+    color: rgb(84, 168, 1);
+}
 
 
 

@@ -15,3 +15,102 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #F9F9F9;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 84px 47px 84px;
+    align-items: center;
+}
+
+.logo {
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
+.navigation nav {
+    display: flex;
+    gap: 1px;
+}
+
+.navigation nav a {
+    padding: 8px 32px;
+    border-radius: 40px;
+    transition: 0.3s;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navigation nav a:hover {
+    transform: translateY(5px);
+    background-color: #4CE0D7;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 67px;
+}
+
+
+/* background section  */
+
+.background-section {
+    padding: 0 60px;
+    padding-top: 150px;
+}
+
+.background {
+    background: url(./Assets/Background-picture.png);
+    padding-top: 218px;
+    padding-left: 57px;
+    padding-bottom: 141px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.background h3 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.background p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 460px;
+}
+
+.background h1 {
+    font-size: 46px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.background span {
+     background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}

@@ -422,19 +422,16 @@ hr{
 
 
  /* third-section */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f0f0f0;
-    padding: 20px;
-}
+
+
 
 .trend-wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #e3e3e3;
     border-radius: 20px;
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
     padding: 20px;
+
 }
 
 .section-title {
@@ -449,7 +446,7 @@ body {
 
 .trending-container {
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 .trending-item {
@@ -610,19 +607,6 @@ img[src*="shape.png"]:hover {
 
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
-
-
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #F9F9F9;
-}
 
 
 
@@ -664,19 +648,19 @@ body {
 
 
 .card1 .blog-background {
-  background-image: url("assets/images/1.png");
+  background-image: url("Assets/1.png");
 }
 
 
 
 .card2 .blog-background {
-  background-image: url("assets/images/2.png");
+  background-image: url("Assets/2.png");
 }
 
 
 
 .card3 .blog-background {
-  background-image: url("assets/images/3.png");
+  background-image: url("Assets/3.png");
 }
 
 

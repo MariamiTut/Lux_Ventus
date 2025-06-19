@@ -831,8 +831,8 @@ img[src*="shape.png"]:hover {
     border-top-right-radius: 40px;
     padding: 87px 89px 37px 84px;
     box-shadow: 6px 0px 6px 0px #0000000D;
-    color: #FFFFFF;
     margin-top: 69px;
+    background-color: #fff;
 }
 
 
